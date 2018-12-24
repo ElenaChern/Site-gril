@@ -1,0 +1,21 @@
+*, html, body{ margin: 0; padding: 0; list-style: none; text-decoration: none;outline: none;box-sizing: border-box; font-family: 'Tahoma',sans-serif;background: url(../img/fon.png) center no-repeat;width: 100%;}
+h1{
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 48pt;
+    font-family: "Tahoma";
+}
+h3{
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14pt;
+    font-family: "Tahoma";
+}
+.wrap{width: 1000px;margin: auto;}
+header{display: flex;justify-content: space-between;padding: 23px 0;}
+.menuHeader ul{display: flex;}
+.menuHeader ul li{padding: 20px 0;}
+.menuHeader ul li a{display: block;padding: 0 17px; color: #565656;font-size: 19px;border-right: 1px solid #565656;}
+.menuHeader ul li:last-child a{border:0;}
